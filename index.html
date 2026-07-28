@@ -52,11 +52,35 @@
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: pssaki2006@gmail.com</p>
-        <p>GitHub: </p>
-        <p>LinkedIn: </p>
-    </section>
+    <h2>Contact Me</h2>
+
+    <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Reason for Contact:</label><br>
+        <input type="radio" id="project" name="reason" value="Project">
+        <label for="project">Project</label>
+
+        <input type="radio" id="job" name="reason" value="Job">
+        <label for="job">Job Opportunity</label><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+        <input type="checkbox" id="updates">
+        <label for="updates">Send me future updates</label><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+
+    <p>Email: pssaki2006@gmail.com</p>
+    <p>GitHub: https://github.com/pssaki2006-cell</p>
+    <p>LinkedIn: Add your LinkedIn profile here</p>
+</section>
 
     <footer>
         <p>© 2026 Sai Saketh. Built with HTML, CSS & JavaScript.</p>
