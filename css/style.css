@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 /* Remove browser default spacing */
 * {
     margin: 0;
@@ -62,17 +66,11 @@ section {
 }
 
 .project-container article{
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
-    flex:1;
+    transition:0.3s;
 }
 
-.project-container{
-    display:flex;
-    gap:20px;
-    justify-content:center;
+.project-container article:hover{
+    transform:translateY(-8px);
 }
 
 .hero{
@@ -96,10 +94,12 @@ section {
     text-decoration:none;
     border-radius:6px;
     font-weight:bold;
+    transition:0.3s;
 }
 
 .btn:hover{
     background:#d68910;
+    transform:scale(1.05);
 }
 
 /* Footer */
