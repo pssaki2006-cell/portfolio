@@ -236,3 +236,7 @@ form {
     margin-bottom:10px;
     color:#2c3e50;
 }
+
+label{
+    margin-right:25px;
+}
